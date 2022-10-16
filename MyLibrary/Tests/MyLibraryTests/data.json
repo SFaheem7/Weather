@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": -123.262,
+    "lat": 44.5646
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 67.82,
+    "feels_like": 67.08,
+    "temp_min": 64.38,
+    "temp_max": 75.6,
+    "pressure": 1011,
+    "humidity": 59
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.01,
+    "deg": 158,
+    "gust": 3
+  },
+  "clouds": {
+    "all": 48
+  },
+  "dt": 1665857751,
+  "sys": {
+    "type": 2,
+    "id": 2005452,
+    "country": "US",
+    "sunrise": 1665844092,
+    "sunset": 1665883742
+  },
+  "timezone": -25200,
+  "id": 5720727,
+  "name": "Corvallis",
+  "cod": 200
+}
