@@ -83,7 +83,8 @@ final class MyLibraryTests: XCTestCase {
         
         // Then
         XCTAssertNotNil(weather)
-        XCTAssertEqual(weather.main.temp, 67.82)
+        XCTAssertEqual(weather.main.temp, 69.82)
+
     }
 
 }
