@@ -9,7 +9,7 @@ enum BaseURL : String   {
 }
 
 class WeatherServiceImpl: WeatherService {
-    let url = "http://localhost:3000/data/api"
+    let url = "http://localhost:3000/data/2.5/weather"
 
     func getTemperature() async throws -> Int {
         return try await withCheckedThrowingContinuation { continuation in
