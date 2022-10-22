@@ -10,6 +10,6 @@ final class MyIntegrationTest: XCTestCase {
 		// When
 		let temp = try await myService.getTemperature()
 		// Then
-		XCTAssertEqual(temp, 75)
+		XCTAssertEqual(temp, 64)
 	}
 }
