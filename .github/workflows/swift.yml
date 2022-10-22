@@ -1,0 +1,13 @@
+name: Swift
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run tests
+        run: /home/shazeb/swift-5.7-RELEASE-ubuntu18.04/usr/bin/swift test
