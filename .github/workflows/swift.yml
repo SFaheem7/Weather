@@ -16,6 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
+    - run: pwd
+    
     - name: Run tests
-      run: swift test
+    - run: swift test
