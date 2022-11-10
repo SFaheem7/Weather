@@ -4,7 +4,7 @@ import MyLibrary
 
 
 final class MyIntegrationTest: XCTestCase {
-	func SKIP_testWeather() async throws {
+	func testWeather() async throws {
 		// Given
 		let myService = WeatherServiceImpl()
 		// When
